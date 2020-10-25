@@ -51,5 +51,10 @@ cd ${BASE}/src/Hauppauge/HauppaugeUSB
 make
 make install
 
+# Clean up file modes
+chmod 755 /opt/Hauppauge/bin/hauppauge2
+chmod 644 /opt/Hauppauge/etc/*
+chmod 644 /opt/Hauppauge/firmware/*
+
 # Create a tarball
 tar cvzf ${BASE}/HauppaugeUSB-16.9.26-1.tar.gz /opt/Hauppauge
