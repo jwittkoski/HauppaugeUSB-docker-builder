@@ -32,6 +32,8 @@ cd /
 tar xvzf /tmp/HauppaugeUSB-16.9.26-1.tar.gz
 ```
 
+Files will be installed in `/opt/Hauppauge`
+
 # Using
 
 See: https://github.com/jpoet/HauppaugeUSB#using-it
