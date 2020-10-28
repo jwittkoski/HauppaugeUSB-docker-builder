@@ -1,12 +1,24 @@
 # A docker container to build jpoet/HauppaugeUSB
 
-# Clone repo
+# Download this repo
 
+Do one of the following:
+
+## Clone repo
 ```
 mkdir -p ~/src/hauppaugeusb-builder
 cd ~/src/hauppaugeusb-builder
 git clone https://github.com/jwittkoski/HauppaugeUSB-docker-builder.git
 cd HauppaugeUSB-docker-builder
+```
+
+## Download a zip of the files
+```
+mkdir ~/src
+cd ~/src
+curl -L https://github.com/jwittkoski/HauppaugeUSB-docker-builder/archive/main.zip > HauppaugeUSB-docker-builder.zip
+unzip HauppaugeUSB-docker-builder.zip
+cd HauppaugeUSB-docker-builder-main
 ```
 
 # Build docker image
